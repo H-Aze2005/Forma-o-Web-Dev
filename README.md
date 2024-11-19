@@ -1,4 +1,4 @@
-# formacao-web
+# formacao-web-NEEEC
 
 ### Objetivo HTML
 
@@ -12,4 +12,5 @@
 
 ![Objetivo JavaScritp](./screenshots/js.png)
 
-
+André Sousa
+Hugo Azevedo
