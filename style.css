@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #001635;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0;
+    column-gap: 1em;
+    color: white;
+    font-weight: bold;
+    text-shadow: rgb(12, 0, 78) 0.1rem 0.1rem 5px;
+    font-size: larger;
+}
+
+.profile {
+    margin-top: 2rem;
+    display: flex;
+    gap: 5%;
+}
+
+.information {
+    background-color: #f0f8ff;
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #001635;
+    border-radius: 10px;
+
+}
+
+.information-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.profile h3 {
+    margin: 5px 0px 5px 0px;
+    font-size: 1.2rem;;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profile {
+    width: auto;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.img-container img:hover {
+    border-radius: 50%;
+    border: 2px solid #001635;
+    transition: 0.5s ease-in-out;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.skills {
+    width: 50%;
+}
+
+.skills ul {
+    list-style-type: circle;
+    padding-inline-start: 15px;
+}
+
+.skill-container {
+    background-color: #E0B2EA;
+    border-radius: 5px;
+    border: 2px solid #001635;
+    padding: 15px;
+}
+
+.skill-container button {
+    background-color: #001635;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skill-container input {
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #001635;
+}
+
+.profile-container {
+    margin-left: 2rem;
+}
+
+.links h3 {
+    font-size: 1.5rem;
+}
+
+.links a {
+    color: #da94e9
+}
+
+.links a:hover {
+    color: #001635;
+}
+
+
